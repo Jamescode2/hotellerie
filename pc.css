@@ -26,3 +26,43 @@
     padding: 15px;
     border: 1px solid red;
 }
+
+.banniere {
+    display: flex;
+    font-size: 15px;
+    list-style-type: none;
+    justify-content: flex-end;
+
+}
+
+
+a:link
+ {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited
+ {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover 
+{
+
+    color: rgb(0, 0, 0);
+}
+
+.bannierebouton{
+    padding-right: 18px;
+    
+}
+
+.CHECK{
+    font-size: 70%;
+}
+
+
