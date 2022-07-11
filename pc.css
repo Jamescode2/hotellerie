@@ -1,3 +1,4 @@
+/*responsive*/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -27,46 +28,102 @@
     border: 1px solid red;
 }
 
+/*fin responsive*/
+
+/*general*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: white;
+}
+
+/*lien*/
+a:link {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: rgb(0, 0, 0);
+}
+
+/*fin lien*/
+
+/*header*/
 .banniere {
     display: flex;
-    font-size: 15px;
+    font-size: 100%;
     list-style-type: none;
     justify-content: flex-end;
-
 }
 
-
-a:link
- {
-
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+.banniere li{
+    margin-right: 5%;
 }
 
-a:visited
- {
-
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+.CHECK {
+    display: flex;
+    font-size: 60%;
+    text-align: flex-end;
+    justify-content: center;
 }
 
-a:hover 
-{
-
-    color: rgb(0, 0, 0);
-}
-
-.bannierebouton{
-    padding-right: 18px;
-    
-}
-
-.CHECK{
-    font-size: 70%;
-}
+/*formulaire*/
 
 .fond{
-    background-image: url(img/)
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/vue-de-villa-moderne-avec-la-piscine-pendant-la-nuit-91453234.jpg);
+    display: flex;
+    height: 93%;
+    align-content: center;
+    justify-content: center;
+   
+}
+.reservation {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
+.formulaire {
+    padding: 5%;
+    background-color: rgb(255, 255, 255, 0.5);
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
 
+.formulaire li{
+    padding: 1%;
+    text-align: center;
+
+}
+
+  /*fin formulaire*/
+
+/*footer*/
+
+p{
+    color: rgb(255, 255, 255);  
+    position: relative;
+    top: 40%;
+}   

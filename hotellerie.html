@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pc.css" />
-    <link rel="stylesheet" href="phone.css" />
-    <title>CV</title>
-  </head>
 
-  <body>
-    <datalist id="nombres de personnes">
-      <option value="1"></option>
-      <option value="2"></option>
-      <option value="3"></option>
-      <option value="4"></option>
-      <option value="5"></option>
-    </datalist>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="pc.css" />
+  <link rel="stylesheet" href="phone.css" />
+  <title>Hotellerie</title>
+</head>
 
-    <datalist id="chambres">
-      <option value="1"></option>
-      <option value="2"></option>
-      <option value="3"></option>
-      <option value="4"></option>
-      <option value="5"></option>
-    </datalist>
+<body>
+  <datalist id="nombres de personnes">
+    <option value="1"></option>
+    <option value="2"></option>
+    <option value="3"></option>
+    <option value="4"></option>
+    <option value="5"></option>
+  </datalist>
 
-    <header class="row">
-      <div class="col-4">UNIQUE</div>
-      <div class="col-2"></div>
-      <div class="col-5">
-        <ul class="banniere">
-          <li><a class="bannierebouton" href="">HOME</a></li>
-          <li><a class="bannierebouton" href="">CONTACT</a></li>
-          <li><a class="bannierebouton" href="">ROOM</a></li>
-          <li><a class="bannierebouton" href="">GALLERY</a></li>
-        </ul>
-      </div>
-      <div class="col-1"><a class="CHECK" href="">CHECK IN</a></div>
-    </header>
+  <datalist id="chambres">
+    <option value="1"></option>
+    <option value="2"></option>
+    <option value="3"></option>
+    <option value="4"></option>
+    <option value="5"></option>
+  </datalist>
 
-    <div class="row fond">
-      <div class="col-3"></div>
-      <div class="col-6">
-        <ul>
-          <li><input list="nombres de personnes" placeholder="personnes" /></li>
-          <li><input type="date" placeholder="date" /></li>
-          <li><input type="list" placeholder="chambres" /></li>
-          <li><input type="submit" />Réservez</li>
-        </ul>
-      </div>
-      <div class="col-3"></div>
+  <header class="row">
+    <div class="col-4">UNIQUE</div>
+    <div class="col-2"></div>
+    <div class="col-5">
+      <ul class="banniere">
+        <li><a href="">HOME</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">ROOM</a></li>
+        <li><a href="">GALLERY</a></li>
+      </ul>
     </div>
-  </body>
+    <div class="col-1"><a class="CHECK" href="">CHECK IN</a></div>
+  </header>
+
+  <div class="row fond">
+    <div class="col-2"></div>
+    <div class="col-8 reservation">
+      <ul class="formulaire">
+        <li><input list="nombres de personnes" placeholder="personnes" /></li>
+        <li><input type="date" placeholder="date" /></li>
+        <li><input id="chambres"list="chambres" placeholder="chambres" /></li>
+        <li><input type="email" id="email"pattern=".+@globex\.com" size="30" 
+          placeholder="mail"required ></li>
+        <li><input type="submit" value="Réservez" /></li>
+      </ul>
+      <p>James et Damien roue libre @2022</p>
+    </div>
+    <div class="col-2"></div>
+  </div>
+
+  
+
+</body>
+
 </html>
