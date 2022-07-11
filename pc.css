@@ -65,6 +65,12 @@ a:hover {
 /*fin lien*/
 
 /*header*/
+
+.titre{
+    font-size: 200%;
+    text-align: center;
+}
+
 .banniere {
     display: flex;
     font-size: 100%;
@@ -88,9 +94,9 @@ a:hover {
 .fond{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(img/vue-de-villa-moderne-avec-la-piscine-pendant-la-nuit-91453234.jpg);
+    background-image: url(img/hotel-un.webp);
     display: flex;
-    height: 93%;
+    height: 92%;
     align-content: center;
     justify-content: center;
    
@@ -126,4 +132,9 @@ p{
     color: rgb(255, 255, 255);  
     position: relative;
     top: 40%;
-}   
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
