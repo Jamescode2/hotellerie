@@ -40,7 +40,7 @@ body {
     height: 100vh;
 }
 
-header {
+header { display: flex;
     background-color: white;
 }
 
@@ -69,6 +69,9 @@ a:hover {
 .titre{
     font-size: 200%;
     text-align: center;
+    text-shadow: -3px -4px #ff0000, 3px 4px #2600ff; 
+    color: rgb(0, 0, 0);
+    
 }
 
 .banniere {
@@ -95,10 +98,11 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(img/hotel-un.webp);
-    display: flex;
-    height: 92%;
+    display: flex;   
+     height: 80%;
     align-content: center;
     justify-content: center;
+    margin: 0 4%;
    
 }
 .reservation {
