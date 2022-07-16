@@ -28,6 +28,19 @@
     border: 1px solid red;
 }
 
+
+@media (max-width:640px)
+{
+    .formulaire {
+        padding: 5%;
+        background-color: rgb(255, 255, 255, 0.5);
+        list-style-type: none;
+    }
+    [class*="col-"]
+    {
+        width: 100%;
+    }
+}
 /*fin responsive*/
 
 /*general*/
