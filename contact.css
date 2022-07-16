@@ -28,7 +28,6 @@
     border: 1px solid red;
 }
 
-/*fin responsive*/
 
 /*general*/
 
@@ -38,32 +37,29 @@
 }
 body {
     height: 100vh;
+    background-color:#B8996B;
 }
 
 header { display: flex;
-    background-color: white;
+    background-color: #D6D2CD;
     border:3px black solid;
 }
 
 /*lien*/
 a:link {
-
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 a:visited {
-
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 a:hover {
-
     color: rgb(0, 0, 0);
 }
 
-/*fin lien*/
 
 /*header*/
 
@@ -95,43 +91,31 @@ a:hover {
     justify-content: center;
 }
 
-/*formulaire*/
 
-.fond{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(img/hotel-un.webp);
+/* main */
+
+main{
     display: flex;   
-     height: 80%;
+    height: 80%;
     align-content: center;
     justify-content: center;
     margin: 0 4%;
-   
-}
-.reservation {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
 }
 
-.formulaire {
+main ul{
     padding: 5%;
     background-color: rgb(255, 255, 255, 0.5);
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
+
 }
 
-.formulaire li{
+main ul li{
     padding: 1%;
     text-align: center;
-
 }
 
-  /*fin formulaire*/
+
 
 /*footer*/
 

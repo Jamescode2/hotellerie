@@ -1,0 +1,149 @@
+/*responsive*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color:#B8996B;
+}
+/*header*/
+header { display: flex;
+    background-color: #D6D2CD;
+    border:3px black solid;
+} 
+
+.titre{
+    font-size: 250%;
+    text-align: center;
+    text-shadow: 3px 4px #000000; 
+    color: rgb(0, 0, 0);
+    
+}
+
+.banniere {
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.banniere li{
+    margin-right: 5%;
+}
+
+.CHECK {
+    display: flex;
+    font-size: 60%;
+    text-align: flex-end;
+    justify-content: center;
+}
+
+
+
+
+a:link {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: rgb(0, 0, 0);
+}
+
+.titre{
+    font-size: 250%;
+    text-align: center;
+    text-shadow: 3px 4px #000000; 
+    color: rgb(0, 0, 0);
+    
+}
+
+.banniere {
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.banniere li{
+    margin-right: 5%;
+}
+
+.CHECK {
+    display: flex;
+    font-size: 60%;
+    text-align: flex-end;
+    justify-content: center;
+}
+
+.box{
+    display: grid;
+    width: 100vh;
+    height: 1000px;
+    grid-template-columns: 1FR 1FR 1FR;
+    grid-template-rows: 1fr;
+}
+
+.img1,.img2,.img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    grid-column: 1;
+
+}
+
+.img2{
+    grid-column: 2;
+
+}
+
+.img3{
+    grid-column: 3;
+
+}
