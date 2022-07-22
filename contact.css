@@ -102,20 +102,21 @@ main li:hover {
 /* main */
 
 main {
-    height: 80%;
-    margin: 0 4%;
+    height: 60%;
     background-color: grey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
+
 }
 
 main ul {
     padding: 5% 15%;
     background-color: #D9D9D9;
     display: flex;
+    grid-row: 2;
+    grid-column: 3;
     flex-direction: column;
-    list-style-type: none;
 }
 
 main ul li {
